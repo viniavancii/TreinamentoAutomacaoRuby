@@ -32,7 +32,6 @@
   Então('o sistema deverá concluir meu pedido') do                                
     esperado = 'Your order on My Store is complete.'
     expect(@comprar.texto_compra_sucesso)
-    #@comprar.texto_compra_sucesso
   end                                                                             
 
 
