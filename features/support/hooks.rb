@@ -1,8 +1,7 @@
 #frozen_string_literal: true
 
-
   Before do
-    page.driver.browser.manage.window.maximize 
+    page.driver.browser.manage.window.maximize
     @login = Login.new
     @comprar = Comprar.new
     @comprarconectado = ComprarConectado.new
